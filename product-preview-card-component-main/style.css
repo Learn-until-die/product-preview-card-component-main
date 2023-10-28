@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%) ;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Fraunces', serif; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    width:600px;
+    display:flex;
+    
+   
+}
+.img{
+    
+    width:50%;
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+    
+    
+
+}
+ 
+
+.txt{
+    width:50%;
+    background-color:  hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    display:flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+h1{
+
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: 'Fraunces', serif; 
+
+
+
+}
+
+p{
+    font-size: 14px;
+    color:hsl(228, 12%, 48%) ;
+    
+    
+}
+
+h5{
+
+    font-size: 14px;
+    color:hsl(228, 12%, 48%) ;
+}
+
+
+
+
+
+.b{
+    padding-bottom:10px;
+}
+span{
+    display:flex;
+    font-size: 14px;
+    color: hsl(158, 36%, 37%);
+
+}
+
+#wow{
+    color: hsl(158, 36%, 37%);
+
+}
+del{
+    color: hsl(228, 12%, 48%);
+     padding-top:25px; 
+}
+
+button{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    border:hsl(158, 36%, 37%);
+    height:3rem;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.s{
+
+letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+@media(max-width:500px)
+{
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+    .container{
+        width:375px;
+        height:667px;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        transition: all 1s ease-in;
+        
+
+    }
+
+    .img{
+        width:100%;
+        height:40%;
+        background-image: url("images/image-product-mobile.jpg");
+        background-size: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .txt{
+        width:100%;
+        height:60%;
+        font-size: 11px;
+        border-radius: 0px 0px 10px 10px;
+        
+    }
+    h1{
+        font-size:30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    p{
+        font-size: 13px;
+       line-height: 20px;
+       
+    }
+
+h5{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
